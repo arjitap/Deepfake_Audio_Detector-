@@ -1,4 +1,4 @@
-librosa
+librosa==0.10.1
 numpy
 pandas
 soundfile
@@ -6,3 +6,5 @@ matplotlib
 scikit-learn
 streamlit
 notebook
+scipy
+joblib
