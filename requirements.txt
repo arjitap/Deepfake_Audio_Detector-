@@ -1,10 +1,9 @@
-librosa==0.10.1
+librosa
 numpy
-pandas
-soundfile
-matplotlib
 scikit-learn
-streamlit
-notebook
 scipy
+soundfile
+streamlit
 joblib
+matplotlib
+setuptools
