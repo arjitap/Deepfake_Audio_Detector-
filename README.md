@@ -26,51 +26,32 @@ Upload any `.wav` file and get an instant prediction with confidence score.
 
 ---
 
-##  Project Structure
-eepfake_Audio_Detector/
+## 📁 Project Structure
 
+```
+Deepfake_Audio_Detector/
 ├── data/                          # Audio dataset (not uploaded to GitHub)
-
 │   ├── train/
-
 │   │   ├── real/                  # Genuine training audio
-
 │   │   └── fake/                  # Deepfake training audio
-
 │   ├── val/
-
 │   │   ├── real/
-
 │   │   └── fake/
-
 │   └── test/
-
 │       ├── real/
-
 │       └── fake/
-
 ├── models/
-
 │   └── deepfake_audio_model.pkl   # Trained model pipeline
-
 ├── notebooks/
-
 │   └── notebook.ipynb             # Full training + evaluation pipeline
-
 ├── reports/
-
 │   ├── performance_report.md      # Detailed metrics report
-
 │   └── confusion_matrix_test.png  # Confusion matrix visualization
-
 ├── app.py                         # Streamlit web application
 ├── predict.py                     # Command line prediction script
-
 ├── requirements.txt               # Python dependencies
-
 └── README.md                      # This file
-
----
+```
 
 ##  Usage
 
