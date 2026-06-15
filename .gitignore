@@ -1,8 +1,8 @@
 data/
-models/
+
 *.wav
 *.mp3
-*.pkl
+
 *.h5
 *.pth
 venv/
